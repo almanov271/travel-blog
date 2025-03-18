@@ -7,53 +7,49 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f0f0f0;
             text-align: center;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
         }
         .container {
             width: 80%;
             margin: auto;
-            padding: 20px;
         }
-        .travel-post {
+        .card {
             background: white;
             padding: 20px;
-            margin-bottom: 20px;
+            margin: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        .travel-post img {
+        img {
             width: 100%;
-            height: auto;
+            max-width: 600px;
             border-radius: 10px;
-        }
-        .travel-post p {
-            font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <header>
-        Travel Blog
-    </header>
+    <h1>Travel Blog</h1>
     <div class="container">
-        <div class="travel-post">
-            <img src="https://source.unsplash.com/800x400/?travel,beach" alt="Travel Image">
+        <div class="card">
+            <img src="images/bali.jpg" alt="Bali Beach">
             <h2>Bali - The Island of Gods</h2>
             <p>Enjoy the breathtaking views of Bali's stunning beaches and cultural heritage.</p>
         </div>
-        <div class="travel-post">
-            <img src="https://source.unsplash.com/800x400/?mountains,travel" alt="Travel Image">
+        <div class="card">
+            <img src="images/alps.jpg" alt="Swiss Alps">
             <h2>Swiss Alps - A Nature's Paradise</h2>
             <p>Explore the majestic mountains and the beautiful scenic views of Switzerland.</p>
+        </div>
+        <div class="card">
+            <img src="images/paris.jpg" alt="Eiffel Tower">
+            <h2>Paris - The City of Love</h2>
+            <p>Discover the romance and charm of Paris with its stunning Eiffel Tower and art museums.</p>
+        </div>
+        <div class="card">
+            <img src="images/japan.jpg" alt="Cherry Blossoms in Japan">
+            <h2>Japan - Land of the Rising Sun</h2>
+            <p>Witness the breathtaking beauty of cherry blossoms and rich culture in Japan.</p>
         </div>
     </div>
 </body>
